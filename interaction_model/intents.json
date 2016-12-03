@@ -1,0 +1,77 @@
+{
+  "intents": [
+   {
+      "intent": "SelectList",
+      "slots": [
+       {
+          "name": "category",
+          "type": "LIST_OF_CATEGORIES"
+        },
+        {
+          "name": "lists",
+          "type": "AVAILABLE_LISTS"
+        }
+      ]
+    },
+    {
+      "intent": "RepeatGenre"
+    }, 
+    {
+      "intent": "GetBookDetails",
+      "slots": [
+       {
+          "name": "booknumber",
+          "type": "AMAZON.NUMBER"
+        }      
+      ]
+    },
+    {
+      "intent": "GetAuthorList",
+      "slots": [
+       {
+          "name": "author",
+          "type": "AUTHOR_NAMES"
+        }      
+      ]
+    },
+   {
+      "intent": "GetSimilarBooksList"
+    },
+    {
+      "intent": "AddToShelf"
+    },  
+    {
+      "intent": "GetSavedBooks"
+    },  
+    {
+      "intent": "RemoveFromShelf",
+      "slots": [
+       {
+          "name": "booknumber",
+          "type": "AMAZON.NUMBER"
+        }      
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },   
+    {
+      "intent": "AMAZON.StartOverIntent"
+    }
+  ]
+}

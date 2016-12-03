@@ -1,0 +1,12 @@
+fiction
+nonfiction
+young adult
+childrens
+action
+mystery
+biography
+middle grade
+picture books
+best overall novel
+best first novel
+best paperback original

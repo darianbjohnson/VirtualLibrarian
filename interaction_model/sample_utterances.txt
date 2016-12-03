@@ -1,0 +1,22 @@
+SelectList recommend a book
+SelectList what lists are available
+SelectList give me a book recommendation
+SelectList tell me books on the {lists}
+SelectList {lists}
+SelectList {category}
+SelectList recommend {category} books
+SelectList {category} books on the {lists}
+RepeatGenre what genres are available
+GetAuthorList Recommend books by {author} 
+GetAuthorList get more books by this author
+AMAZON.RepeatIntent return
+GetBookDetails {booknumber}
+GetBookDetails number {booknumber}
+GetBookDetails give me number {booknumber}
+GetSimilarBooksList find similar books
+AMAZON.StopIntent goodbye
+AMAZON.StopIntent good bye
+AddToShelf save this book
+GetSavedBooks tell me my saved books
+RemoveFromShelf remove {booknumber}
+RemoveFromShelf remove this book
